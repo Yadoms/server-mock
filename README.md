@@ -13,7 +13,7 @@ docker pull wiremock/wiremock
 
 ## run wiremock server 
 ```
-docker run -it --rm -p 8081:8080 --name wiremock-yadoms -v $PWD/home/wiremock wiremock/wiremock --enable-stub-cors
+docker run -it --rm -p 8081:8080 --name wiremock-yadoms -v $PWD:/home/wiremock wiremock/wiremock --enable-stub-cors
 ```
 
 ## To display all mocked requests
