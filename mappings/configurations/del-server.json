@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "/rest/v2/configurations/server"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Server": "oatpp/1.2.5",
+      "Content-Length": "200",
+      "Connection": "keep-alive"
+    },
+    "body": "{\"BasicAuthentication\":{\"active\":false,\"password\":\"\",\"user\":\"admin\"},\"firstStart\":false,\"location\":{\"altitude\":0,\"latitude\":43.5312,\"longitude\":5.4554,\"status\":\"autoDetected\",\"timezone\":\"Europe\\/Paris\"}}"
+  }
+}

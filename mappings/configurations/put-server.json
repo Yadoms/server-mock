@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "/rest/v2/configurations/server",
+    "bodyPatterns" : [
+      {"matchesJsonPath" : "$.firstStart"},
+      {"matchesJsonPath" : "$.location.status"},
+      {"matchesJsonPath" : "$.location.latitude"},
+      {"matchesJsonPath" : "$.location.longitude"},
+      {"matchesJsonPath" : "$.location.altitude"},
+      {"matchesJsonPath" : "$.location.timezone"},
+      {"matchesJsonPath" : "$.basicAuthentication.active"},
+      {"matchesJsonPath" : "$.basicAuthentication.user"},
+      {"matchesJsonPath" : "$.basicAuthentication.password"}
+    ]
+  },
+  "response": {
+    "status": 204,
+    "headers": {
+      "Server": "oatpp/1.2.5",
+      "Content-Length": "0",
+      "Connection": "keep-alive"
+    }
+  }
+}
